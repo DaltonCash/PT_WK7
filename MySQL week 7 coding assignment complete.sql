@@ -2,7 +2,7 @@ SELECT * FROM employees WHERE birth_date < '1965-01-01';
 
 SELECT * FROM employees WHERE gender = 'f' AND hire_date >= '1990-01-01';
 
-SELECT first_namSe, last_name FROM employees WHERE last_name LIKE 'f%' LIMIT 50;
+SELECT first_name, last_name FROM employees WHERE last_name LIKE 'f%' LIMIT 50;
 
 INSERT INTO employees VALUES(100, '1974-05-24','David','Whitaker','M','2022-04-08');
 
